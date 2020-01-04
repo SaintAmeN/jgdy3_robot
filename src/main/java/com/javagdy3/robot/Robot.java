@@ -29,7 +29,7 @@ public class Robot {
         }
 
         poziomBaterii -= ruch.getWydatekEnergetyczny();
-        System.out.println("Poruszyłem robotem: " + ruch);
+        System.out.println("Poruszyłem robotem: " + ruch + " poziom naladowania: " + poziomBaterii);
     }
 
     public void naładujRobota(){
